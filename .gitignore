@@ -1,1 +1,8 @@
 *.nii.gz
+*.tar
+*.tgz
+Registration/data
+.idea/
+.vscode/
+*/.ipynb_checkpoints/
+__pycache__

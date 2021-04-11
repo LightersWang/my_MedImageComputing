@@ -1,12 +1,10 @@
 import cv2
 import utils
-import numpy as np
 import SimpleITK as sitk
 
 vol_raw = sitk.ReadImage("CC0001_philips_15_55_M.nii.gz")
 vol = sitk.GetArrayFromImage(vol_raw)
 show_vol = vol.copy()
-print(vol.min(), vol.max())
 
 s = 0
 window_name = 'visual'
